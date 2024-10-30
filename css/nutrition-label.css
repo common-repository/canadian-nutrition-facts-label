@@ -1,0 +1,77 @@
+/**
+ * @file nutrition-label.css
+ *
+ * Style for Canadian Nutrition Facts Label
+ * 
+ * Copyright (c) 2014, Dandelion Web Design Inc. <http://dandelionwebdesign.com>
+ */
+
+.nutritionPluginWrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.pageSelectWrap {
+	padding: 20px 10px;
+}
+
+.pageSelectWrap select {
+	height: 33px;
+	padding: 5px;
+	width: 35%;
+}
+
+.nutritionFieldsWrap {
+	margin: 20px 0;
+}
+
+.nutritionField {
+	padding: 5px 0;
+}
+
+.label {
+	width: 120px; 
+	margin-right: 10px; 
+	float: left; 
+	padding-top: 5px;
+}
+
+.editableTextField {
+	border: none !important;
+	border-bottom: 1px solid #ccc !important;
+	box-shadow: none !important;
+	float: none !important;
+	padding: 5px !important;
+	position: relative;
+	top: -3px;
+	width: 100% !important;
+}
+
+.nutritionField input {
+	float: left; 
+	width: 40%; 
+	padding: 7px;
+}
+
+.remove {
+	background: url(../img/minus.png) no-repeat;
+	width: 16px;
+	height: 16px;	
+	display: inline-block;
+	margin: 8px;
+}
+
+.addNewVitamin {
+	display: inline-block;
+	text-align: center;
+	width: 80%;
+	margin-top: 20px;
+}
+
+.left {
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
